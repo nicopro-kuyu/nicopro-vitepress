@@ -69,7 +69,7 @@ next: /programming/join/
 ### 場所
 <br>
   
-[**ニコプロ　天文館教室**](/class/)
+[**ニコプロ教室**](/class/)
 
 ### 費用
 <br>
