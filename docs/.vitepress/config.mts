@@ -9,13 +9,11 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/png', href: '/img/favicon.png' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' }],
     // Google アナリティクス(gtag.js)
-    // 旧 UA-92408090-2 は Universal Analytics で計測終了済みのため、
-    // 新しい GA4 の測定ID(G-XXXXXXXXXX)に置き換えてください。
-    // ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' }],
-    // ['script', {}, `window.dataLayer = window.dataLayer || [];
-    //   function gtag(){dataLayer.push(arguments);}
-    //   gtag('js', new Date());
-    //   gtag('config', 'G-XXXXXXXXXX');`],
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-2LKP1GKDMG' }],
+    ['script', {}, `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-2LKP1GKDMG');`],
   ],
 
   cleanUrls: true,
