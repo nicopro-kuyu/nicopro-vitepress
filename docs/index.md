@@ -21,7 +21,8 @@ features:
 <div class="home-extra">
   <div class="home-cta-wrap">
     <a class="home-cta-btn" href="/contact/">
-      <span class="mdi-email">✉</span> お問い合わせ →
+      <!-- <span class="mdi-email">✉</span> お問い合わせ → -->
+      ✉お問い合わせ →
     </a>
   </div>
   <div class="banner">
