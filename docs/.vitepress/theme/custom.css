@@ -1,0 +1,338 @@
+/* ===== ニコプロ カラーパレット ===== */
+:root {
+  --vp-c-brand-1: #ff8000;
+  --vp-c-brand-2: #ff8000;
+  --vp-c-brand-3: #e67300;
+  --vp-c-text-1: #333333;
+}
+
+body {
+  font-family: "Helvetica", "Arial", "ヒラギノ角ゴ Pro W3",
+    "Hiragino Kaku Gothic Pro", "Osaka", "メイリオ", "Meiryo",
+    "ＭＳ Ｐゴシック", "MS PGothic" !important;
+}
+
+.vp-doc h2 {
+  border-bottom: solid 3px #ff8000;
+  padding-bottom: 6px;
+}
+
+/***** ナビバーをスマホ表示でも上部固定に *****/
+.VPNav {
+  position: fixed !important;
+}
+
+/***** トップページ バナー画像(hero見出しの上に表示) *****/
+.custom-hero-banner {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 32px 24px 0;
+  text-align: center;
+}
+.custom-hero-banner img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/***** お問い合わせページ *****/
+.contact-intro {
+  max-width: 640px;
+  margin: 0;
+  text-align: left;
+  padding-top: 8px;
+}
+.contact-intro .line-btn {
+  display: inline-block;
+  margin-top: 8px;
+}
+.contact-intro .line-btn img {
+  height: 36px;
+}
+.vp-doc form.form {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/***** トップページ hero見出しを常に中央揃えに *****/
+.VPHero .container {
+  text-align: center !important;
+  align-items: center !important;
+}
+.VPHero .main {
+  width: 100% !important;
+  max-width: 900px !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+.VPHero .heading {
+  align-items: center !important;
+}
+.VPHero .name,
+.VPHero .text {
+  max-width: 900px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  font-size: 30px !important;
+  line-height: 38px !important;
+}
+@media (min-width: 640px) {
+  .VPHero .name,
+  .VPHero .text {
+    font-size: 42px !important;
+    line-height: 50px !important;
+  }
+}
+@media (min-width: 960px) {
+  .VPHero .name,
+  .VPHero .text {
+    font-size: 48px !important;
+    line-height: 56px !important;
+  }
+}
+.VPHero .tagline {
+  max-width: 700px !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+.VPHero .actions {
+  justify-content: center !important;
+}
+
+/***** トップページ 追加エリア *****/
+.home-extra {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 48px 24px 64px;
+  text-align: center;
+}
+.home-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  padding: 14px 32px;
+  background-color: #e67300;
+  color: #ffffff !important;
+  border-radius: 6px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+.home-cta-btn:hover {
+  opacity: 0.85;
+}
+.banner {
+  padding: 16px;
+}
+.banner-image {
+  display: block;
+  max-width: 620px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/***** お問い合わせフォーム *****/
+.form {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 480px) {
+  .form {
+    margin-top: 40px;
+  }
+}
+.form-item {
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .form-item {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
+  }
+}
+.form-item-flex {
+  display: flex;
+  flex-direction: column;
+}
+.form-item:nth-child(5) {
+  border-bottom: 1px solid #ddd;
+}
+.form-item-label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  margin-right: 8px;
+}
+@media screen and (max-width: 480px) {
+  .form-item-label {
+    max-width: inherit;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: auto;
+  }
+}
+.form-item-label.istop {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+@media screen and (max-width: 480px) {
+  .form-item-label.istop {
+    margin-top: 0;
+  }
+}
+.form-item-label-required {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #ff8000;
+  color: #fff;
+  font-size: 14px;
+}
+.form-item-label-unrequired {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #bdbdbd;
+  color: #fff;
+  font-size: 14px;
+}
+@media screen and (max-width: 480px) {
+  .form-item-label-required,
+  .form-item-label-unrequired {
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 32px;
+    font-size: 10px;
+  }
+}
+.form-item-input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 48px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 16px;
+}
+@media screen and (max-width: 480px) {
+  .form-item-input {
+    margin-left: 0;
+    margin-top: 10px;
+    height: 40px;
+    flex: inherit;
+  }
+}
+.form-item-choice {
+  margin-top: 10px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  flex: 1;
+}
+@media screen and (max-width: 480px) {
+  .form-item-choice {
+    margin-left: 0;
+    margin-top: 10px;
+    flex: 1;
+  }
+}
+.form-item-comment {
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  flex: 1;
+}
+@media screen and (max-width: 480px) {
+  .form-item-comment {
+    margin: 10px 0;
+  }
+}
+.form-item-textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding: 10px 1em;
+  height: 216px;
+  flex: 1;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 16px;
+}
+@media screen and (max-width: 480px) {
+  .form-item-textarea {
+    margin-top: 10px;
+    margin-left: 0;
+    height: 200px;
+    flex: inherit;
+  }
+}
+.form-btn {
+  border-radius: 6px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: #ff8000;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .form-btn {
+    margin-top: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 160px;
+    font-size: 16px;
+  }
+}
+
+/***** Googleマップ埋め込み *****/
+.google-map {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+  overflow: hidden;
+}
+.google-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
