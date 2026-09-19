@@ -29,7 +29,7 @@ sidebar: false
     </p>
       <input type="tel" class="form-item-input" name="tel" placeholder="例：09012345678" />
   </div>
-  <div class="form-item">
+  <!-- <div class="form-item">
       <p class="form-item-label istop">
         <span class="form-item-label-required">必須</span>お問い合わせ項目
       </p>
@@ -44,7 +44,7 @@ sidebar: false
           <input type="radio" name="category" value="その他" />その他
         </div>
     </div>
-  </div>
+  </div> -->
   <div class="form-item">
     <p class="form-item-label istop">
       <span class="form-item-label-required">必須</span>お問い合わせ内容
